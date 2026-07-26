@@ -652,6 +652,23 @@ button { font-family: inherit; cursor: pointer; }
     width: 100vw;
     border-radius: var(--radius-md); 
   }
+   
+   .sidebar-actions {
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    background: var(--bg);
+    border-top: 1px solid #DDD;
+  }
+   .sidebar-actions .btn {
+    font-size: 0.9rem;
+    gap: 12px;
+    padding: 12px 0;
+    font-weight: 500;
+  }
 
   .tip { margin-top: -90px; }
   .tip p { font-size: 16px; }
