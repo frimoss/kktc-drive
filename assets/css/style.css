@@ -357,7 +357,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .route-sidebar {
   position: sticky;
-  top: 100px;
+  top: 80px;
   align-self: start;
   display: flex;
   flex-direction: column;
