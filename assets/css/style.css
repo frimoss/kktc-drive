@@ -653,7 +653,8 @@ button { font-family: inherit; cursor: pointer; }
     border-radius: var(--radius-md); 
   }
    
-   .sidebar-actions {
+  .sidebar-actions {
+    z-index: 100;
     flex-direction: row;
     position: fixed;
     width: 100%;
@@ -661,10 +662,9 @@ button { font-family: inherit; cursor: pointer; }
     left: 0;
     padding: 12px;
     background: var(--bg);
-    border-top: 1px solid #DDD;
   }
-   .sidebar-actions .btn {
-    font-size: 0.9rem;
+  .sidebar-actions .btn {
+    font-size: 0.8rem;
     gap: 12px;
     padding: 12px 0;
     font-weight: 500;
@@ -675,6 +675,7 @@ button { font-family: inherit; cursor: pointer; }
 
   .footer-top { justify-content: center; }
   .footer-columns { gap: 40px; }
+  .footer-bottom { padding-bottom: 28px; }
 }
 
 /* -------------------------------------------------- Burger Menu */
