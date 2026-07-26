@@ -1,6 +1,6 @@
 /* ==========================================================================
    Drive KKTC – shared stylesheet
-   Tokens taken from the brand mockups:
+   Colors:
    background #FBFBFB · ink #1A1A1C · blue #0088FF / #5D9EFF
    gold #BDA06E · sage #697E59 · deep green #2C4F33 · flag red #FF0000
    Display: DM Sans · Body: Roboto · UI/labels: Inter
@@ -95,21 +95,6 @@ button { font-family: inherit; cursor: pointer; }
   white-space: nowrap;
 }
 
-/* -------------------------------------------------- Skip link */
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  top: 0;
-  background: var(--ink);
-  color: var(--white);
-  padding: 12px 20px;
-  z-index: 200;
-  border-radius: 0 0 10px 0;
-}
-.skip-link:focus {
-  left: 0;
-}
-
 /* -------------------------------------------------- Header */
 .site-header {
   border-bottom: 1px solid #DDD;
@@ -154,6 +139,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* -------------------------------------------------- Buttons */
 .btn {
+  font-size: 1.0rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
